@@ -1,0 +1,20 @@
+<!-- templates/home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RP Flask REST API</title>
+</head>
+<body>
+    <h1>
+        Hello, People!
+    </h1>
+    <ul>
+        {% for person in people %}
+        <li>{{ person.fname }} {{ person.lname }} | {{ person.votes }} | {{ person.occupation }} at {{ person.company }} | liked = {{ person.liked }}</li>
+        <br>
+        {% endfor %}
+    </ul>
+</body>
+</html>
