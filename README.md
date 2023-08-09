@@ -1,2 +1,2 @@
 # flask-api
-# Simple CRUD operations API using Flask
+# Simple CRUD API designed in Flask
